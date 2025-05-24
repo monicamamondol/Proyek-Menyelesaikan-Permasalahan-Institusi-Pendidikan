@@ -62,7 +62,7 @@ Proyek ini membutuhkan lingkungan sederhana untuk menjalankan analisis data dan 
    - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk melihat dependensi yang dibutuhkan).
    - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
 2. **Menjalankan Dashboard**:
-   Untuk melihat isi dashboard secara langsung klik link ini
+   Untuk melihat isi dashboard secara langsung klik link ini https://lookerstudio.google.com/reporting/e73ef9a9-c6aa-4270-a5af-cd9a3265e080
 
 
 ## Business Dashboard
