@@ -7,14 +7,17 @@ Jaya Jaya Institut adalah lembaga pendidikan tinggi yang telah berdiri sejak tah
 Masalah dropout ini merupakan masalah yang serius bagi institusi pendidikan, karena dropout yang tinggi dapat mempengaruhi citra institusi, mengurangi tingkat kelulusan, dan pada akhirnya berdampak pada daya tarik institusi bagi calon siswa di masa mendatang. Tingkat dropout yang tinggi juga bisa menjadi indikasi bahwa ada masalah mendasar dalam proses penerimaan siswa, pembelajaran, atau dukungan akademik yang disediakan oleh institusi.
 
 ### Permasalahan Bisnis
-Permasalahan bisnis yang akan diselesaikan melalui proyek ini adalah:
-1. Mengidentifikasi faktor-faktor utama yang memengaruhi angka dropout siswa, baik dari segi `latar belakang demografis`, `performa akademik`, maupun kondisi `sosial ekonomi`.
+Jaya Jaya Institut menghadapi tantangan besar berupa tingginya tingkat mahasiswa yang tidak menyelesaikan studi (dropout). Masalah ini telah berlangsung selama beberapa tahun terakhir dan menunjukkan tren yang mengkhawatirkan.
 
-2. Menentukan pola atau karakteristik siswa yang cenderung mengalami dropout, seperti pengaruh status pekerjaan, jumlah penghasilan orang tua, dan beban studi.
+Dampak dari tingginya dropout mencakup:
 
-3. Menyediakan alat bantu berupa dashboard interaktif yang memudahkan manajemen akademik dalam memantau data siswa dan mengambil tindakan preventif terhadap risiko dropout.
+- Penurunan reputasi institusi di mata publik dan calon mahasiswa.
 
-Dengan menyelesaikan permasalahan ini, institusi diharapkan dapat:
+- Efisiensi operasional menurun karena sumber daya seperti dosen dan fasilitas tidak dimanfaatkan secara optimal.
+
+- Turunnya tingkat kelulusan, yang memengaruhi akreditasi dan daya saing.
+
+Sayangnya, hingga kini pihak institusi belum memiliki sistem pendeteksi dini untuk mengidentifikasi siswa yang berpotensi dropout, sehingga tindakan pencegahan sulit dilakukan secara proaktif. Dengan menyelesaikan permasalahan ini, institusi diharapkan dapat:
 
 - Menurunkan angka dropout melalui intervensi berbasis data.
 
@@ -85,13 +88,25 @@ Atau buka [tautan](https://proyek-menyelesaikan-permasalahan-institusi-pendidika
 Proyek ini dirancang untuk menjawab beberapa permasalahan utama yang dihadapi oleh Jaya Jaya Institut terkait dengan tingkat dropout siswa. 
 Berikut adalah kesimpulan dari proyek ini:
 
-1. **Membangun model prediktif yang akurat**:
+1. **Karakteristik umum siswa yang dropout**:
+
+- Status Pernikahan: Mayoritas siswa yang dropout orang tuanya berstatus single (belum menikah), jumlahnya jauh lebih besar dibanding status lainnya seperti married, divorced, dsb.
+
+- Kondisi ekonomi: Siswa dari latar belakang ekonomi rendah, terutama yang tidak menerima beasiswa, memiliki risiko dropout lebih tinggi.
+
+- Performa akademik rendah: Dropout lebih sering terjadi pada siswa dengan rata-rata nilai yang lebih rendah dan beban studi yang tidak seimbang.
+
+- Pekerjaan Orang Tua: Pekerjaan orang tua siswa dropout paling banyak berasal dari pekerja tidak terampil (Unskilled Workers). 
+
+- Kehadiran dan komitmen: Catatan kehadiran yang buruk dan jumlah unit yang tidak konsisten juga menjadi indikator dropout.
+
+2. **Membangun model prediktif yang akurat**:
     - Model Random Forest memberikan performa terbaik dengan **accuracy 90.77%** dan metrik lainnya yang tinggi. Dengan membangun model prediktif menggunakan algoritma seperti Random Forest, Jaya Jaya Institut dapat mengidentifikasi siswa-siswa yang berpotensi mengalami dropout sejak dini. Model ini mampu mendeteksi siswa berisiko dengan tingkat akurasi yang memadai berdasarkan data historis dan faktor-faktor demografis, akademik, serta ekonomi.
 
-2. **Mengidentifikasi faktor utama penyebab dropout**:
+3. **Mengidentifikasi faktor utama penyebab dropout**:
     - Analisis korelasi dan pentingnya fitur dalam model prediktif menunjukkan bahwa beberapa faktor yang paling berpengaruh terhadap keputusan siswa untuk dropout antara lain latar belakang akademik (seperti nilai dan jumlah unit yang diambil), faktor-faktor demografis, dan kondisi ekonomi. 
   
-3. **Memberikan rekomendasi yang actionable**:
+4. **Memberikan rekomendasi yang actionable**:
 
    Jaya Jaya Institut dapat segera menerapkan sistem pemantauan berbasis data untuk:
    - Menyediakan program remedial bagi siswa dengan nilai rendah.
